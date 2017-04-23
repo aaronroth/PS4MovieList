@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "PS4MovieList",
+    "name": "PS4 Movie List",
     "version": "1.0",
-    "description": "Adds a browser action icon to the toolbar. Click the button when on thepiratebay.org movie pages to see only torrents for movies that the PS4 media player can play.",
+    "description": "Adds a browser action icon to the toolbar. Click the button when on thepiratebay.org movie pages to change the background color of all movie listings that the PS4 media player can play.",
     "icons": {
         "48": "icons/pb-48.jpg"
     },
