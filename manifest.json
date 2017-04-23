@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "PS4MovieList",
+    "version": "1.0",
+    "description": "Adds a browser action icon to the toolbar. Click the button when on thepiratebay.org movie pages to see only torrents for movies that the PS4 media player can play.",
+    "icons": {
+        "48": "icons/pb-48.jpg"
+    },
+    "browser_action": {
+        "default_icon": "icons/pb-32.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
