@@ -1,6 +1,6 @@
 function removeUnwantedMovies() {
     var executing = browser.tabs.executeScript({
-        file: "content_script.js",
+        file: "content_scripts/content_script.js",
         allFrames: true
     });
 }
